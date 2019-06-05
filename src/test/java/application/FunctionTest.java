@@ -23,7 +23,7 @@ public class FunctionTest {
 		 * In this section, we will configure our SauceLabs credentials in order to run
 		 * our tests on saucelabs.com
 		 */
-		String sauceUserName = "jimmywanging";
+		String sauceUserName = "jimmywangking";
 		String sauceAccessKey = "8c949181-ebab-4aee-8bfb-dcb5b1eef74b";
 
 		/**
