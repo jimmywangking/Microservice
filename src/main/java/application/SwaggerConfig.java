@@ -37,6 +37,6 @@ public class SwaggerConfig {
 
 	private ApiInfo metadata() {
 		return new ApiInfoBuilder().title("Example RESTful APIs").version("1.0")
-				.contact(new Contact("Zeng Li", "https://www.ibm.com", "zzlili@cn.ibm.com")).build();
+				.contact(new Contact("Thinker", "https://www.ibm.com", "bowangdl@cn.ibm.com")).build();
 	}
 }
