@@ -51,12 +51,12 @@ public class FunctionTest {
 		capabilities.setCapability("name", "testImageRecognize()");
 
 		// set prerun to download test image file in Sauce Labs
-		capabilities.setCapability("prerun", "http://169.51.194.16:31936/curl.sh");
+		capabilities.setCapability("prerun", "http://168.1.148.67:30518/curl.sh");
 
 		driver = new RemoteWebDriver(new URL("http://ondemand.saucelabs.com:80/wd/hub"), capabilities);
 
 		// navigate to the url of the Example restful api
-		driver.navigate().to("http://169.51.194.16:31936/swagger-ui.html");
+		driver.navigate().to("http://168.1.148.67:30518/swagger-ui.html");
 
 		// Create an instance of a Selenium explicit wait so that we can dynamically
 		// wait for an element
