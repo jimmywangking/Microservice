@@ -42,10 +42,10 @@ public class FunctionTest {
 		capabilities.setCapability("browserName", "Safari");
 
 		// set operating system to macOS version 10.13
-		capabilities.setCapability("platform", "macOS 10.13");
+		capabilities.setCapability("platform", "macOS 10.14.5");
 
 		// set the browser version to 11.1
-		capabilities.setCapability("version", "11.1");
+		capabilities.setCapability("version", "12.1.1");
 
 		// set your test case name so that it shows up in Sauce Labs
 		capabilities.setCapability("name", "testImageRecognize()");
